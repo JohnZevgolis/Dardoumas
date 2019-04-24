@@ -1,0 +1,37 @@
+.cg__page-content {
+	ul {
+		list-style: disc;
+		padding-left: 40px;
+		font-size: 13px;
+	}
+
+	h3 {
+		text-transform: none;
+	}
+
+	table {
+		tr:nth-child(odd) {
+			background-color: #dbdcea;
+		}
+
+		th,td {
+			border: none;
+			color: #484a64;
+		}
+
+		tr {
+			td:first-child {
+				font-weight: bold;
+			}
+		}
+
+	}
+
+	a[data-lightbox] {
+		display: none;
+	}
+
+	a[data-lightbox]:first-child {
+		display: block;
+	}
+}

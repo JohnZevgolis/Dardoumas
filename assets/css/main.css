@@ -1,0 +1,31 @@
+/* line 2, ../../sass/main.scss */
+.cg__page-content ul {
+  list-style: disc;
+  padding-left: 40px;
+  font-size: 13px;
+}
+/* line 8, ../../sass/main.scss */
+.cg__page-content h3 {
+  text-transform: none;
+}
+/* line 13, ../../sass/main.scss */
+.cg__page-content table tr:nth-child(odd) {
+  background-color: #dbdcea;
+}
+/* line 17, ../../sass/main.scss */
+.cg__page-content table th, .cg__page-content table td {
+  border: none;
+  color: #484a64;
+}
+/* line 23, ../../sass/main.scss */
+.cg__page-content table tr td:first-child {
+  font-weight: bold;
+}
+/* line 30, ../../sass/main.scss */
+.cg__page-content a[data-lightbox] {
+  display: none;
+}
+/* line 34, ../../sass/main.scss */
+.cg__page-content a[data-lightbox]:first-child {
+  display: block;
+}
