@@ -9,6 +9,12 @@
 		text-transform: none;
 	}
 
+	h4 {
+		font-size: 28px;
+		color: #484a64;
+		font-weight: bold;
+	}
+
 	table {
 		tr:nth-child(odd) {
 			background-color: #dbdcea;
@@ -17,6 +23,7 @@
 		th,td {
 			border: none;
 			color: #484a64;
+			font-size: 13px;
 		}
 
 		tr {
@@ -33,5 +40,22 @@
 
 	a[data-lightbox]:first-child {
 		display: block;
+	}
+}
+
+.fleet-overview-image {
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+}
+
+.cg__welcome-titleContainer {
+	.cg__welcome-subtitle {
+		font-size: 22px;
+	}
+}
+
+.cg__counterElementWrapper {
+	p {
+		font-size: 45px;
 	}
 }
